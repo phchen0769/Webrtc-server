@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-	"name": "Webrtc-vue3",
+	"name": "Webrtc-server",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	// "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
 	"build": {
@@ -50,7 +50,7 @@
 	},
 	"runArgs": [
 		"-p",
-		"8888:8888",
+		"3003:3003",
 		"-it",
 		"--rm",
 		"-e",
